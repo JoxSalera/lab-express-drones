@@ -3,9 +3,9 @@ const mongoose = require("mongoose");
 
 //schema
 const schema = mongoose.Schema({
-  name: { String },
-  propellers: { Number },
-  maxSpeed: { Number },
+  name: String,
+  propellers: Number,
+  maxSpeed: Number,
 });
 
 // model
